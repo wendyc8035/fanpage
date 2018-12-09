@@ -1,11 +1,21 @@
 html {
     height: 100%;
 }
-
-body {
+#Body {
     height: 100%;
+}
+#indexBody {
+     background-color: #430912;
     
 }
+#aboutBody {
+    background-color:  #001162;
+}
+#galleryBody {
+    background-color: #3D1C33;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -17,11 +27,80 @@ a {
     width: 30px;
     margin: 15px;
 }
-.three{
-    height: 500px;
-    width: 500px;
-}
+
 .four{
+    height: 200px;
+    width: 350px;
+      border: 30px solid #BA580D;
+}
+.two{
+       height: 200px;
+    width: 350px;
+      border: 30px solid #BA580D;
+}
+.one{
+       height: 200px;
+    width: 350px;
+      border: 30px solid #BA580D;
+}
+.three{
+    height: 200px;
+    width: 350px;
+      border: 30px solid #BA580D;
+}
+
+.five{
+    height: 200px;
+    width: 350px;
+      border: 30px solid #BA580D;
+}
+.six{
+    height: 200px;
+    width: 350px;
+      border: 30px solid #BA580D;
+}
+.gallery{
+  
+ background-color: #BA580D;
+   justify-content: space-around;
+   border: 1px solid black;
+}
+
+
+
+.leftPane{
+   
+  border:1px solid black; 
+    background-color: #B14624;
+    font-size: 20px;
+}
+
+
+
+#photo{
     height: 500px;
     width: 450px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+.header{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+       justify-content: center;
+
+
+    
+}
+.navbar{
+    justify-content: space-around;
+     text-align: center;
+    font-size: 20px;
+    color: #B14624;
+    word-spacing: 150px;
+    
+}
+
